@@ -1,3 +1,4 @@
+/*
 The MIT License (MIT)
 
 Copyright (c) 2015 Pär A Karlsson
@@ -19,4 +20,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ */
+package prkn.netmonitor
+
+/**
+ * A Scala library aiming at providing a natural way to access the netatmo REST API [[https://dev.netatmo.com/]]
+ * All i/o operations are non-blocking. Where applicable data is mapped to scala data types.
+ *
+ * Created by pearalbin on 2015-12-26.
+ */
+package object netatmo {
+
+}
 

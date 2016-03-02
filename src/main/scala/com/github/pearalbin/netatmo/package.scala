@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
-package prkn.netmonitor
+package com.github.pearalbin.netatmo
 
 /**
  * A Scala library aiming at providing a natural way to access the netatmo REST API [[https://dev.netatmo.com/]]

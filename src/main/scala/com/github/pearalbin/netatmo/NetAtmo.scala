@@ -21,20 +21,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
-package prkn.netmonitor.netatmo
+package com.github.pearalbin.netatmo
 
 import java.net.URL
 import java.util.Date
 import java.util.concurrent.atomic.AtomicReference
 import javax.net.ssl.HttpsURLConnection
 
+import com.github.pearalbin.netatmo.NetAtmo.AccessToken
 import play.api.libs.json.{JsObject, JsValue, Json}
-import prkn.netmonitor.netatmo.NetAtmo.AccessToken
 
+import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.io.Source
 import scala.language.postfixOps
-import scala.concurrent.duration._
 
 /**
  * Companion object for the netatmo client

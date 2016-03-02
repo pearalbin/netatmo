@@ -249,7 +249,7 @@ class NetAtmo(clientID : String, clientSecret : String, aToken : AccessToken = A
         Future { refreshToken() }
       Future {
         val response = Source.fromURL(
-          s"$resourceURL?access_token=${accessToken.get.accessToken}&device_id=$deviceId&type=$types&scale=$scale&optimize=$optimize$optionals"
+          s"$resourceURL?access_token=${accessToken.get.accessToken}&device_id=$deviceId&type=$types&scale=$scale&optimize=$optimize$optionals&limit=$limit"
         )
         val json = Json.parse(response.toStream.mkString)
         mType.zip(extractMeasurements(json)).toMap
